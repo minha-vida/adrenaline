@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);@import url(https://fonts.googleapis.com/css?family=Montserrat:400);body {
+  font-family: 'Tahoma', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal; }
+
+.logo {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal; }
+
+.logo .ad {
+  font-weight: bold; }
+
+.navbar {
+  height: 60px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  padding: 0 40px; }
+
+.navbar .item {
+  text-align: right;
+  float: left; }
+
+main {
+  padding: 100px; }
+
+.impact {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 70px; }
+
+.animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 99999; }
+  .animation > .impact {
+    width: 100%;
+    position: absolute;
+    transform: translateY(50%);
+    transition: all .3s ease-in-out;
+    padding: 0 10%;
+    box-sizing: border-box;
+    top: 50%;
+    transform: translateY(-50%); }
+  .animation > .next-word {
+    margin: 0; }
+
+footer {
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 12px; }
